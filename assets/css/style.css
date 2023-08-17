@@ -1,0 +1,190 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    /* Light gray background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header styling */
+header {
+    background-color: #e74c3c;
+    /* Red */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation links */
+.dashboard-links {
+    max-width: 800px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.dashboard-links h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.dashboard-links ul {
+    list-style: none;
+}
+
+.dashboard-links ul li {
+    margin-bottom: 10px;
+}
+
+.dashboard-links ul li a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    /* Red */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dashboard-links ul li a:hover {
+    background-color: #c0392b;
+    /* Slightly darker red on hover */
+}
+
+/* Table styling */
+.company-table,
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.company-table th,
+.company-table td,
+.employee-table th,
+.employee-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: #f2d6cf;
+    /* Light red background */
+    color: #a93226;
+    /* Dark red text */
+}
+
+/* Action links */
+.action-link {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #e74c3c;
+    /* Red */
+}
+
+/* Form styling */
+.form-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form-container h2 {
+    margin-bottom: 10px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #e74c3c;
+    /* Red */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button[type="submit"]:hover {
+    background-color: #c0392b;
+    /* Slightly darker red on hover */
+}
+
+/* Link to switch between login and register */
+.form-container p {
+    margin-top: 20px;
+    color: #e74c3c;
+    /* Red */
+    text-align: center;
+}
+
+.form-container p a {
+    color: #e74c3c;
+    /* Red */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.form-container p a:hover {
+    color: #c0392b;
+    /* Slightly darker red on hover */
+}
+
+.logout-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #ff6b6b;
+    /* Light red color */
+}
+
+.logout-container a {
+    color: #ff6b6b;
+    /* Light red color */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.logout-container a:hover {
+    color: #d63434;
+    /* Darker shade of light red on hover */
+}
